@@ -1,0 +1,83 @@
+﻿% Chapter Template
+
+\chapter{Разрада} % Main chapter title
+
+\label{Разрада} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Поглавље \thechapter. \emph{Разрада}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+\section{Досадашњи резултати потрага за Хигс бозоном}
+
+У циљу изучавања физике СМ претходних деценија предлагани су и коришћени су различити експерименти и акцелераторске машине.
+
+...
+
+Регистровани сигнал, мерен у односу на референтни ниво фона, најизраженији у каналима распада $H\rightarrow\gamma\gamma$ и $H\rightarrow ZZ\rightarrow 4l$, одређен је са укупним статистичким значајем од $5\sigma$. То је показано на Сл.~\ref{fig:p-value_CMS}~\cite{Chatrchyan:2013lba}, на којој је дато поређење дијаграма зависности $p$-вредности за различите канале распада Хигс бозона ($H \rightarrow \gamma\gamma$, $ZZ$, $WW$, $\tau\tau$ и $bb$), као и дијаграм који одговара комбинацији тих канала (\textit{Combined obs.}).
+
+\begin{figure}[H]
+  \centering
+	\includegraphics[width=0.705\textwidth]{Figs/figures_comb_sqr_pvala_all_bydecay_smallGGScale_wideX.eps}
+	\caption{p-вредност у зависности од масе Хигс бозона добијена анализом експерименталних података са експеримента CMS~\cite{Chatrchyan:2013lba}.
+	p-вредност је мера статистичког значаја добијена тестирањем одређене хипотезе, чија вредност одговара вероватноћи да одређени догађај не представља последицу статистичких флуктуација.}
+	\label{fig:p-value_CMS}
+\end{figure}
+
+...
+
+%\section{Резултати претходних потрага и мотивација за проучавање процеса ttH}
+\section{Мотивација за проучавање процеса ttH}
+
+...
+
+У Таб.~\ref{tab:channelSummary} дат је преглед коначних стања и одговарајућих услова селекције физичких објеката за сваку од анализа $\ttH$ на енергији $\sqrt{s}\,=\,8\TeV$.
+
+\begin{table}[H]
+\begin{center}
+\small
+\caption{
+Преглед канала, коначних стања и основних услова селекције коришћених у анализи $\ttH$.
+У првој колони, канали распада Хигс бозона класификовани су према типу распада (хадронски, фотонски или лептонски);
+у другој колони, коначна стања описана симболички тако да $l$ представља лептон (електрон или мион), $\gamma$ - фотон, $j$ - џет, $b$ - џет идентификован да је настао из b кварка, $\tau_h$ - џет настао хадронским распадом $\tau$ лептона.
+У трећој колони су приказани одговарајући тригери коришћени за преселекцију догађаја,
+а у четвртој колони дат је преглед основних услова селекције реконструисаних физичких објеката~\cite{Khachatryan:2014qaa}.
+}
+\label{tab:channelSummary}
+\resizebox{1.0\linewidth}{!}{
+\begin{tabular}{|l|l|l|l|} \hline
+Category                     & Signature          & Trigger       & Signature \\ \hline \hline
+& Lepton + Jets      & Single Lepton & 1\ $ e $/$ \mu $, $ p_T  > 30 \GeV$ \\
+{\bf \boldmath$ H  \rightarrow $ Hadrons} & ($\ttbar  H  \rightarrow   l    \nu \mathrm{jj}  b  b  b   b $)& & $\geq 4$\ jets + $\geq 2$\ b-tags, $ p_T  > 30 \GeV$ \\
+\cline{2-4}
+\ \ \ $ H  \rightarrow   bb $ & Dilepton  & Dilepton      & 1\ $ e $/$ \mu $, $ p_T  > 20 \GeV$  \\
+\ \ \ $ H  \rightarrow   \tau _\mathrm{h} \tau _\mathrm{h}$ & ($\ttbar  H  \rightarrow   l    \nu  l    \nu  b  b  b   b $) & & 1\ $ e $/$ \mu $, $ p_T  > 10 \GeV$  \\
+\ \ \ $ H  \rightarrow   W   W $            &                    &               & $\geq 3$\ jets + $\geq 2$\ b-tags, $ p_T  > 30 \GeV$ \\
+\cline{2-4}
+& Hadronic $ \tau $    & Single Lepton & 1 $ e $/$ \mu $, $ p_T  > 30\GeV$ \\
+& ($\ttbar  H  \rightarrow   l    \nu  \tau _\mathrm{h} [  \nu]  \tau _\mathrm{h} [  \nu] \mathrm{jj}  b  b $) & & 2\ $ \tau _\mathrm{h}$, $ p_T  > 20 \GeV$ \\
+&                    &               & $\geq\ 2$\ jets + 1-2\ b-tags, $ p_T  > 30 \GeV$ \\
+\hline
+& Leptonic           & Diphoton      & 2\ $ \gamma $, $ p_T  > m_{ \gamma  \gamma }/2\,(25) \GeV$ for 1$^{\mathrm{st}}$ (2$^{\mathrm{nd}}$) \\
+{\bf \boldmath$ H  \rightarrow  $ Photons} & ($\ttbar  H  \rightarrow   l    \nu \mathrm{jj}  b  b  \gamma   \gamma $, & & $\geq 1$\ $ e $/$ \mu $, $ p_T  > 20 \GeV$ \\
+\ \ \ $ H  \rightarrow   \gamma   \gamma $       &  $\ttbar  H  \rightarrow   l    \nu  l    \nu  b  b   \gamma   \gamma $)& & $\geq 2$\ jets + $\geq 1$\ b-tags, $ p_T  > 25 \GeV$ \\
+\cline{2-4}
+& Hadronic           & Diphoton      & 2\ $ \gamma $, $ p_T  > m_{ \gamma  \gamma }/2\,(25) \GeV$ for 1$^{\mathrm{st}}$ (2$^{\mathrm{nd}}$) \\
+& ($\ttbar  H  \rightarrow  \mathrm{jj} \mathrm{jj}  b  b  \gamma   \gamma $)& & 0\ $ e $/$ \mu $, $ p_T  > 20 \GeV$ \\
+&                    &               & $\geq 4$\ jets + $\geq 1$\ b-tags, $ p_T  > 25 \GeV$ \\
+\hline
+& Same-Sign Dilepton & Dilepton      & 2\ $ e $/$ \mu $, $ p_T  > 20 \GeV$  \\
+{\bf \boldmath $ H  \rightarrow  $ Leptons} & ($\ttbar  H  \rightarrow   l ^\pm   \nu  l ^\pm [  \nu] \mathrm{jjj[j]}  b  b $) & & $\geq 4$\ jets + $\geq 1$\ b-tags, $ p_T  > 25 \GeV$ \\
+\cline{2-4}
+\ \ \ $ H  \rightarrow   W  W $          & 3 Lepton           & Dilepton,     & 1\ $ e $/$ \mu $, $ p_T  > 20 \GeV$  \\
+\ \ \ $ H  \rightarrow   \tau  \tau $        & ($\ttbar  H  \rightarrow   l    \nu  l  [  \nu]  l  [  \nu] \mathrm{j[j]}  b  b $)&  Trielectron & 1\ $ e $/$ \mu $, $ p_T  > 10 \GeV$  \\
+\ \ \ $ H  \rightarrow   Z  Z $        &                    &               & 1\ $ e $($ \mu $), $ p_T  > 7(5) \GeV$  \\
+&                    &               & $\geq 2$\ jets + $\geq 1$\ b-tags, $ p_T  > 25 \GeV$ \\
+\cline{2-4}
+& 4 Lepton           & Dilepton,     & 1\ $ e $/$ \mu $, $ p_T  > 20 \GeV$  \\
+& ($\ttbar  H  \rightarrow   l    \nu  l    \nu  l  [  \nu]  l  [  \nu]  b  b $) &  Trielectron & 1\ $ e $/$ \mu $, $ p_T  > 10 \GeV$  \\
+&                    &               & 2\ $ e $($ \mu $), $ p_T  > 7(5) \GeV$  \\
+&                    &               & $\geq 2$\ jets + $\geq 1$\ b-tags, $ p_T  > 25 \GeV$ \\
+\hline
+\end{tabular}
+}
+\end{center}
+\end{table}

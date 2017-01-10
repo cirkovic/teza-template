@@ -1,0 +1,47 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {serbian}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Предговор и захвалница}{iv}{dummy.1}
+\defcounter {refsection}{0}\relax 
+\vspace {1em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Сажетак}{v}{dummy.2}
+\defcounter {refsection}{0}\relax 
+\vspace {0em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{vi}{dummy.3}
+\defcounter {refsection}{0}\relax 
+\vspace {1em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Садржај}{vii}{dummy.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Увод}{1}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Теоријска поставка}{2}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Хигс бозон у СМ}{2}{section.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Хигс потенцијал и нарушење глобалне симетрије}{2}{subsection.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Разрада}{4}{chapter.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Досадашњи резултати потрага за Хигс бозоном}{4}{section.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Мотивација за проучавање процеса ttH}{5}{section.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Резултати и дискусија}{7}{chapter.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Резултати}{7}{section.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Закључак}{8}{chapter.19}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {I}Наслов додатка}{9}{appendix.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {II}Наслов додатка}{10}{appendix.21}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Литература}{11}{dummy.22}
