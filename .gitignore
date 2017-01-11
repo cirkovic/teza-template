@@ -46,4 +46,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-localtexmf
+#localtexmf
+main.blg
+main.log
+main.pdf
+main.tcp
